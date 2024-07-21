@@ -22,8 +22,6 @@ function deleteProductById(cartId, productId) {
     })
     .then((data) => {
       console.log(data);
-      // Aquí puedes actualizar la interfaz de usuario para reflejar la eliminación
-      // Por ejemplo, podrías eliminar el elemento del DOM que representa el producto eliminado
     })
     .catch((error) => {
       console.error(error);
